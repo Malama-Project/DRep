@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "MālamaProject",
+    "motivations": "Our motivation to become a DRep on Cardano stems from a deep commitment to fostering positive, sustainable change through decentralized technology. The Mālama Project has shown the potential for blockchain and IoT to create real-world impact, from empowering local communities to advancing global sustainability goals. We believe Cardano’s ecosystem holds the power to transform industries, improve lives, and protect our environment. As a DRep, we aim to represent the values of transparency, inclusion, and innovation, ensuring that decisions are made with a long-term vision for collective growth and equity. We are driven by the desire to bridge the gap between technology and social good, and we see the role of a DRep as essential to guiding Cardano’s future toward a more regenerative and ethical global system.",
+    "objectives": "As a DRep on Cardano, The Mālama Project will advocate for decentralized, transparent solutions that prioritize sustainability and equitable access to technology. The Mālama Project is dedicated to leveraging blockchain and IoT to support regenerative agriculture, renewable energy, and community-driven innovation. We aim to foster inclusive ecosystems where economic growth benefits both people and the planet. Our mission is to bridge the gap between cutting-edge technology and real-world solutions by empowering communities to create a future that harmonizes with nature. Our representation will focus on long-term impact, ethical governance, and collaboration, ensuring that Cardano’s progress remains aligned with the values of stewardship, transparency, and social responsibility.",
+    "paymentAddress": "addr1qycytw6f6cs3y85esyghmq7ymnp2l444794a2aewrhvp6hrg8ywec8v2vfuyla8n3rw2nwa4alsv92f5fn6mgcqttjxse07cv7",
+    "qualifications": "Our team is uniquely qualified to serve as a DRep on Cardano, with expertise spanning blockchain technology, IoT, sustainable development, and community engagement. Through the Mālama Project, we have successfully implemented projects that integrate decentralized technologies to address real-world challenges, such as regenerative agriculture and environmental sustainability. Our collective experience includes developing blockchain solutions on Cardano, managing large-scale initiatives, and securing grants to fund innovative projects. With a strong foundation in ethical governance, project management, and technical expertise, our team is committed to representing Cardano’s diverse community and driving positive, sustainable impact. We believe that our multidisciplinary approach and shared values of transparency, collaboration, and long-term thinking make us well-suited to guide Cardano’s growth and ensure its continued success. We also operate the Kīnā'ole stakepool\n",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Kīnā'ole 501(c)(3)",
+        "uri": "kinaole.org"
+      },
+      {
+        "@type": "Link",
+        "label": "Mālama Project",
+        "uri": "malamaproject.org"
+      },
+      {
+        "@type": "Identity",
+        "label": "Mālama X Account",
+        "uri": "https://x.com/MalamaProject"
+      }
+    ]
+  }
+}
